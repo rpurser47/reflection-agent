@@ -1,1 +1,61 @@
+# mise/rtx
+.mise/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# VSCode and other IDE/editor config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Unit test / coverage results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+pytest_cache/
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# dotenv
 .env
+.env.*
+
+# SQLite DBs or other local data
+*.sqlite3
+*.db
+
+# AWS / GCP credentials (if applicable)
+*.pem
+*.key
